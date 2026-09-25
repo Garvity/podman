@@ -185,7 +185,6 @@ func loadTemplateInstances(sourcePaths []string, units []*parser.UnitFile) ([]*p
 	return instances, prevError
 }
 
-
 func loadUnitDropins(unit *parser.UnitFile, sourcePaths []string) error {
 	var prevError error
 	reportError := func(err error) {
